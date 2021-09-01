@@ -1,0 +1,793 @@
+.bg-green-1000{
+    color: #4E9525;
+    background-color: #4E9525;
+}
+.bg-green-1001{
+   
+    background-color: #4E9426;
+}
+.bg-green-1002{
+   
+    color: #4E9426;
+}
+
+text-brown{
+    color: #343434;
+}
+.after::after{
+        font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f105";
+        display: inline-block;
+        font-style: normal;
+        padding-left: 4px;
+        font-size: 14px;
+        font-variant: normal;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+      
+}
+.cool-border::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+   
+    background:#4E9525 ;
+    transition: width .3s;
+    margin-top: 1.34rem;
+}
+
+.cool-border:hover::after {
+    width: 100%;
+   background: yellow;
+    transition: width .3s;
+}
+
+head div ul .sag{
+    margin-right: 50px !important;
+
+}
+
+.bg--image{
+    background-image: url(../images/resim.jpg);
+    background-position: center ;
+}
+
+.green__text{
+    color: #4E9525 ;
+}
+  
+.shadow_clone{
+    -webkit-box-shadow: 1px 0px 12px -1px rgba(0,0,0,0.23); 
+box-shadow: 1px 0px 12px -1px rgba(0,0,0,0.23);
+}
+
+/* card-1*/
+.cardhover__1:hover span.cardspan__1{
+    background-color: #4E9525;
+    color: yellow;
+    transition: all 0.3s ease 0s;          
+}
+
+div.hovercontainer span.hoverforward-1 {
+    display: none;
+    
+}
+
+.card__1:hover  span.hoverforward-1{
+    display: block;
+    animation: mySpinner 0.5s;
+    animation-iteration-count:unset;
+}
+
+div.hovercontainer span.hoverforward-1::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+@keyframes mySpinner{
+    from{
+        top: 40px;
+        opacity: 0;
+    }
+    
+    to{
+        top: 12px;
+        opacity: 1;
+    }
+}
+
+
+
+
+
+/* card 2 */
+
+.cardhover__2:hover span.cardspan__2{
+    background-color: #4E9525;
+    color: yellow;
+    transition: all 0.3s ease 0s;          
+}
+
+div.hovercontainer-2 span.hoverforward-2 {
+    display: none;
+    
+}
+
+.card__2:hover  span.hoverforward-2{
+    display: block;
+    animation: mySpinner-2 0.5s;
+    animation-iteration-count:unset;
+}
+
+div.hovercontainer-2 span.hoverforward-2::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+@keyframes mySpinner-2{
+    from{
+        top: 40px;
+        opacity: 0;
+    }
+    
+    to{
+        top: 12px;
+        opacity: 1;
+    }
+}
+
+
+
+
+/* card 3 */
+
+.cardhover__3:hover span.cardspan__3{
+    background-color: #4E9525;
+    color: yellow;
+    transition: all 0.3s ease 0s;          
+}
+
+div.hovercontainer-3 span.hoverforward-3 {
+    display: none;
+    
+}
+
+.card__3:hover  span.hoverforward-3{
+    display: block;
+    animation: mySpinner-3 0.5s;
+    animation-iteration-count:unset;
+}
+
+div.hovercontainer-3 span.hoverforward-3::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-style: normal;
+    padding-top: 10px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+@keyframes mySpinner-3{
+    from{
+        top: 40px;
+        opacity: 0;
+    }
+    
+    to{
+        top: 12px;
+        opacity: 1;
+    }
+}
+
+.cards__h{
+    height: 100%;
+}
+
+
+
+/* container 4 */
+
+.bg--image-2{
+    background-image: url(../images/img-2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 540px;
+    height: 807px;
+    
+}
+
+.bg-cont-4-width{
+    width: fit-content;
+    height:  fit-content;
+}
+
+.container-4-h{
+    height: 100%;
+}
+
+.w__3{
+    width: 50vh;
+}
+
+
+div.hovercontainer-4 button.hoverforward-4::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f04b";
+    display: inline-block;
+    font-size: 1.2rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+}
+div.hovercontainer-4:hover button{
+    border: none;
+    box-shadow: 0 0 0 0 rgba(78, 149, 37, 0.7);
+    background-color: rgb(78,149,37);
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+}
+
+@-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+@keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+
+.main-list{
+    width: 100%;
+}
+
+/* li 1 */
+ 
+.main_container{
+    width: fit-content;
+}
+span.after__4{
+    top: 1.9rem;
+}
+span.after__4::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+   
+    font-variant: normal;
+    text-rendering: auto;
+    
+}
+.li_1:hover{
+    background-color:#4E9525 ;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.li_1:hover span.after__4{
+    background-color: gold ;
+    transition: all 0.1s ease-in;
+}
+
+.li_1:hover span.after__4::after{
+    color:#4E9525 ;
+    transition: all 0.1s ease-in;
+}
+/* li 2 */
+span.after__5{
+    bottom: 21rem;
+}
+
+span.after__5::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.li_2:hover{
+    background-color:#4E9525 ;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.li_2:hover span.after__5{
+    background-color: gold ;
+    transition: all 0.1s ease-in;
+}
+
+.li_2:hover span.after__5::after{
+    color:#4E9525 ;
+    transition: all 0.1s ease-in;
+}
+
+/* li 3 */
+span.after__6{
+    bottom: 14rem;
+}
+
+span.after__6::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.li_3:hover{
+    background-color:#4E9525 ;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.li_3:hover span.after__6{
+    background-color: gold ;
+    transition: all 0.1s ease-in;
+}
+
+.li_3:hover span.after__6::after{
+    color:#4E9525 ;
+    transition: all 0.1s ease-in;
+}
+/* li 4 */
+
+span.after__7{
+  bottom: 6.8rem;
+}
+
+span.after__7::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.li_4:hover{
+    background-color:#4E9525 ;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.li_4:hover span.after__7{
+    background-color: gold ;
+    transition: all 0.1s ease-in;
+}
+
+.li_4:hover span.after__7::after{
+    color:#4E9525 ;
+    transition: all 0.1s ease-in;
+}
+
+/* li 5 */
+span.after__8{
+    bottom: 0.5rem;
+}
+
+span.after__8::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f30b";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.li_5:hover{
+    background-color:#4E9525 ;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.li_5:hover span.after__8{
+    background-color: gold ;
+    transition: all 0.1s ease-in;
+}
+
+.li_5:hover span.after__8::after{
+    color:#4E9525 ;
+    transition: all 0.1s ease-in;
+}
+
+
+
+.main-list{
+    width: 410px;
+}
+
+
+
+
+/*cards last*/
+.last-item-1 {
+    top: 16rem;
+    left: 2rem;
+    background-color:#4E9525 ;
+    color: white;
+}
+
+.last-item-1::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d7";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: #4E9525;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+
+.last-item-2 {
+    top: 16rem;
+    left: 2rem;
+    background-color:#4E9525 ;
+    color: white;
+}
+
+.last-item-2::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d7";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: #4E9525;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+    font-size: 40px;
+    
+}
+
+
+.last-item-3 {
+    top: 16rem;
+    left: 2rem;
+    background-color:#4E9525 ;
+    color: white;
+}
+
+.last-item-3::after{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0d7";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: #4E9525;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    top: 2.3rem;
+    left: 2rem;
+    font-size: 40px;
+    
+}
+
+/*last item finish */
+
+
+
+/* footer */
+.gray{
+    background-color: #303030;
+}
+.footer-links{
+    background-color: #252525;
+    height: fit-content;
+}
+
+.footer-item-1::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    margin-right: 8px;
+}
+
+.footer-item-2::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f3c5";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    right: 15rem;
+}
+.footer-item-3::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f879";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    right: 15rem;
+}
+.footer-item-4::before{
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
+    display: inline-block;
+    font-size: 1rem;
+    font-style: normal;
+    padding-left: 6px;
+    color: white;
+    font-variant: normal;
+    text-rendering: auto;
+    position: absolute;
+    right: 15rem;
+}
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width: 1280px) {
+    .bg--image-2{
+        background-image: url(../images/img-2.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 807px;
+        
+    }
+
+   @media screen and (min-width:1024px) and (max-width: 1280px) {
+    span.after__4{
+        left: 22.5rem;
+    }
+    span.after__5{
+        left: 22.5rem;
+        
+    }
+    span.after__6{
+        left: 22.5rem;
+        
+    }
+    span.after__7{
+        left: 22.5rem;
+        
+    }
+    span.after__8{
+        left: 22.5rem;
+        
+    }
+
+       
+   }
+   
+    @media  screen and (max-width: 1070px) {
+        .bg--image-2{
+            background-image: url(../images/img-2.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 300px;
+            height: 807px;
+            
+            
+        }
+        span.after__4{
+            left: 22.5rem;
+        }
+        span.after__5{
+            left: 22.5rem;
+            
+        }
+        span.after__6{
+            left: 22.5rem;
+            
+        }
+        span.after__7{
+            left: 22.5rem;
+            
+        }
+        span.after__8{
+            left: 22.5rem;
+            
+        }
+
+
+    }
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .bg-green-1000{
+        color: black;
+        background-color: black;
+    }
+
+    .cards__h{
+        height: 90vh;
+    }
+
+    .cards{
+        margin-top: 3rem;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .p_width {
+        width: 75.5vh;
+        display: flex;
+        justify-content: center;
+    }
+    span.after__4{
+        left: 18.5rem;
+    }
+    span.after__5{
+        left: 18.5rem;
+        top: 9rem;
+    }
+    span.after__6{
+        left: 18.5rem;
+        top: 17rem;
+    }
+    span.after__7{
+        left: 18.5rem;
+        top: 24rem;
+    }
+    span.after__8{
+        left: 18.5rem;
+        top: 31rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .cards{
+        display: flex;
+        flex-direction: column-reverse;
+        ;
+        height:fit-content;
+     }
+     
+     .c-1{
+         width: 100%;
+         margin: auto;
+         }
+         
+         .c-2{
+             width: 100%;
+             margin: auto;
+             margin-bottom: 2rem;
+         }
+
+         .c-3{
+            width: 100%;
+            margin: auto;
+            margin-bottom: 2rem;
+        }
+
+        .c-4{
+            width: 100%;
+            margin: auto;
+        }
+        .container-4-h{
+            height: 100%;
+        }
+        .bg--image-2{
+            background-image: url(../images/img-2.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 400px;
+            height: 807px;
+            
+            
+        }
+        span.after__4{
+            left: 19.5rem;
+        }
+        span.after__5{
+            left: 19.5rem;
+            
+        }
+        span.after__6{
+            left: 19.5rem;
+            
+        }
+        span.after__7{
+            left: 19.5rem;
+            
+        }
+        span.after__8{
+            left: 19.5rem;
+            
+        }
+
+        .li_1{
+            width: 21rem;
+        }
+        .li_2{
+            width: 21rem;
+        }
+        .li_3{
+            width: 21rem;
+        }
+        .li_4{
+            width: 21rem;
+        }
+        .li_5{
+            width: 21rem;
+        }
+}
+}
+
+
+@media screen and (min-width: 301px) and (max-width: 640px) {
+    .bg--text{
+        width: 18rem;
+    }
+
+    
+
+}
+
+
